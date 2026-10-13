@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 78c79711e1cac224bb9130cfa6334362
+guid: 8bdb6d45d2edfb8459ec773c1489017a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1093449205011054995
-    second: museum_floor_tileset_cartoon_0
+      213: -2268674869191614166
+    second: Jump-End-Sheet_0
+  - first:
+      213: 7223305902920631688
+    second: Jump-End-Sheet_1
+  - first:
+      213: 4062616787491900451
+    second: Jump-End-Sheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -102,23 +108,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: museum_floor_tileset_cartoon_0
+      name: Jump-End-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 256
+        x: 13
+        y: 1
+        width: 25
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3910e943246bc2f00800000000000000
-      internalID: 1093449205011054995
+      spriteID: a216af6f93c0480e0800000000000000
+      internalID: -2268674869191614166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-End-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885019fa2765e3460800000000000000
+      internalID: 7223305902920631688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump-End-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c4efc8170516830800000000000000
+      internalID: 4062616787491900451
       vertices: []
       indices: 
       edges: []
@@ -127,7 +177,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f3171c4271358c142b6285d74cc5dd18
     internalID: 0
     vertices: []
     indices: 
@@ -135,9 +185,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      museum_floor_tileset_cartoon_0: 1093449205011054995
+      Jump-End-Sheet_0: -2268674869191614166
+      Jump-End-Sheet_1: 7223305902920631688
+      Jump-End-Sheet_2: 4062616787491900451
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
